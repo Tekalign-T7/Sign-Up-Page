@@ -1,0 +1,97 @@
+@font-face{font-family:Norse-Bold;font-weight:bold; src:url(assets/Norse-Bold.otf)};
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    margin-left:30vh;
+    margin-right:30vh;
+    background-color:black;
+}
+.text-logo{
+    font-family:Norse-Bold;
+    font-size:2rem;
+    color:white;
+}
+img{
+    width:10vh;
+    height:10vh;
+}
+.logo-background{    
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:0.3rem;
+    background-color:rgb(40, 203, 105);
+    color:rgb(12, 4, 4);
+    width:50vh;
+    height:18vh;
+ }
+.left-section{
+    margin-top:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:40%;
+    background-image:url("assets/background.jpg");
+    z-index:-1;
+    
+}
+.right-section{
+    height:100vh;
+    margin-top:0;
+    border:1px solid black;
+    background-color:white;
+
+}
+p,h5{
+    margin-left:1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight:bold;
+}
+.info-section{
+    border:1px solid black;
+}
+.form-section{
+    border:1px solid black;
+}
+form{
+    display:flex;
+    gap:2rem;
+}
+input{
+    border:1px solid #E5E7E8;
+    border-radius:3px;
+    height:1.5rem;
+    margin-bottom:1rem;
+    margin-left:2.5rem;
+}
+label{
+    font-family:Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Georgia, 'Times New Roman', Times, serif;
+    margin-left:2.5rem;
+}
+button{
+    margin-top:0.8rem;
+    margin-left:1rem;
+    margin-bottom:0.5rem;
+    background-color:#596D48;
+    border:1px solid #596D48;
+    border-radius:2.5px;
+    color:white;
+    font-weight:bold;
+    font-size:0.5rem;
+    height:1.5rem;
+    width:7rem;
+}
+
+
